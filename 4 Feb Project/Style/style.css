@@ -11,6 +11,8 @@ padding: 0 119px;
 margin: 0 auto;
 }
 
+@media screen {
+  
 .navbar-container{
   display: flex;
   align-items: center;
@@ -93,4 +95,6 @@ margin-top: 55px;
 
 .btn{
   margin-top: 72px;
+}
+
 }

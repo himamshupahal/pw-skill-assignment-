@@ -1,3 +1,5 @@
+@media screen {
+  
 :root {
   /* color */
   --primary-color: #6663e9;
@@ -32,12 +34,18 @@
   --card-border: var(--btn-border, 10px);
 }
 
+}
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: var(--body-text);
 }
+
+@media screen {
+
 html {
   font-size: 62.5%;
   font-family: var(--primary-font);
@@ -405,4 +413,6 @@ footer div:first-child p {
 
 .footer-links-content ul li{
     margin-bottom: 25px;
+}
+
 }

@@ -16,6 +16,9 @@ body{
     flex-direction:column ;
     justify-content: center;
 }
+
+@media screen {
+    
 li {
     list-style: none;
 }
@@ -95,6 +98,7 @@ nav button {
 footer{
     position: absolute;
  bottom: 20px;
- right:40px;}
+ right:40px;
+}
 
-
+}

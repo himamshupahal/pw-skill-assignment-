@@ -8,7 +8,8 @@
 /* ------------------------------ */
 /* ---------- NAVBAR ------------ */
 /* ------------------------------ */
-
+@media screen {
+  
 .nav-content {
   display: flex;
   justify-content: space-between;
@@ -113,4 +114,6 @@ img {
   padding: 14px 22px;
   margin-top: 64px;
   cursor: pointer;
+}
+
 }

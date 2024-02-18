@@ -12,6 +12,9 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
 }
+
+@media screen {
+    
 li{
     list-style: none;
     cursor: pointer;
@@ -129,3 +132,6 @@ footer p {
 footer ul {
     display: flex;
     gap:30px;
+}
+
+}   

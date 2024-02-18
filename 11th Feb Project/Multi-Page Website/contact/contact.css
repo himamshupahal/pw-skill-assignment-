@@ -14,7 +14,8 @@ body{
 }
 
 /* Designing The Navigation Menu  */
-
+@media screen {
+  
 nav{
   height: 15vh;
   display: flex;
@@ -109,4 +110,6 @@ form button {
   font-weight: bold;
   padding: 10px;
     cursor: pointer;
+}
+
 }
